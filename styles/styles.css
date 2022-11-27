@@ -1,0 +1,199 @@
+.service{
+    /*height: 300px;*/
+    border: 1px solid red;
+}
+
+.clear_fix{
+    clear: both;
+}
+
+.service  .service_1{
+    height: 150px;
+    border: 1px solid red;
+}
+.service .service_2{
+    height: 150px;
+    border: 1px solid red;
+}
+.service .service_3{
+    height: 150px;
+    border: 1px solid red;
+}
+
+.service_body{
+    width: 32.8%;
+    float: left;
+}
+
+header{
+    border: 1px solid blue;
+    margin-bottom: 30px;
+}
+
+.logo{
+    width: 120px;
+    height: 80px;
+    border: 1px solid aqua;
+    float: left;
+}
+
+nav{
+    float: left;
+    height: 80px;
+    border: 1px solid brown;
+    width: 72%;
+}
+
+.about{
+    border: 1px solid aqua;
+    margin-bottom: 30px;
+}
+
+.about .img{
+    border: 1px solid red;
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.about .img img{
+    width: 100%;
+}
+
+/*.about .description{
+    width: 59%;
+    border: 1px solid red;
+    float: left;
+}*/
+
+.about p{
+    text-align: justify;
+    padding: 30px;
+    padding-top: 0;
+}
+
+.container{
+    border: 1px solid red;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    height: 400px;
+    align-items: baseline;
+    /*align-content: space-around;*/
+}
+
+.container .box{
+    border: 1px solid;
+    height: 50px;
+    /*width: 60px;
+    /*width: 170px;*/
+    /*flex-grow: 1;*/
+}
+
+.container .box1{
+    /*order: 1;*/
+}
+
+.container .box2{
+    /*order: 2;*/
+    /*flex-shrink: 5;*/
+    /*flex-basis: max-content;*/
+}
+
+.container .box3{
+    /*order: 3;*/
+    flex: 1;
+}
+.container .box4{
+   /* order: 4;*/
+    /*justify-self: flex-end;
+    align-self: center;
+    flex-grow: 1;
+    align-self: center;
+    justify-self: flex-end;*/
+    flex: 1 30%;
+}
+.container .box5{
+    /*order: 5;*/
+}
+.container .box6{
+    /*order: 6;*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.form_body{
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://scitechdaily.com/images/New-Hubble-Image-Shows-Part-of-the-Large-Magellanic-Cloud.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+.form_body form{
+    height: 400px;
+    width: 300px;
+    border: 1px solid rgb(196, 188, 188);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0px 0px 15px rgb(199, 131, 131);
+
+}
+
+.form_body form .input_container{
+    /*border: 1px solid blue;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+    align-items: center;
+    width: 100%;
+}
+
+.form_body form .input_container label{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.form_body form .input_container input{
+    border: 1px solid rgb(190, 157, 157);
+    padding: 5px;
+    border-radius: 8px;
+    background-color: azure;
+    background-color: transparent;
+    color: white;
+}
+
+.form_body form button{
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    color: white;
+    margin-top: 25px;
+    width: 40%;
+}
